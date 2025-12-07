@@ -137,7 +137,7 @@ from fastmcp import FastMCP
 # Create a proxy to your remote FastMCP Cloud server
 # FastMCP Cloud uses Streamable HTTP (default), so just use the /mcp URL
 mcp = FastMCP.as_proxy(
-    "https://medical-lime-quokka.fastmcp.app/mcp",  # Standard FastMCP Cloud URL
+    "https://medical-lime-quokka.fastmcp.app/mcp?sessionToken=04ebf4eb9f4c265de65b82424ab5320c70a20dbe2a1a51ad2597e7c682cebf57",
     name="Akshit Server Proxy"
 )
 
